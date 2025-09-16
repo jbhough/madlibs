@@ -8,7 +8,7 @@ generate_story <- function(noun, verb, adjective, adverb) {
     {verb} {adverb}. It was the funniest thing ever!
   "
   )
-  cat('\nend generate story')
+  cat(sprintf('\nend generate story: %s characters', nchar(output)))
   output
 }
 
